@@ -19,6 +19,7 @@ class CashRegister
     else
       @items << item
       @price = @total
+      @total
     end
   end
 
