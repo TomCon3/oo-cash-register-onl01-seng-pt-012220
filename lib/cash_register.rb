@@ -18,8 +18,8 @@ class CashRegister
       end
     else
       @items << item
-      
-    end@price = @total
+    end
+    @price = @total
       @total
   end
 
